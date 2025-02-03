@@ -18,9 +18,21 @@ Compilamos y validamos
 ![image](https://github.com/user-attachments/assets/3672b21c-53f0-4ec0-8375-6e7b56f18b1e)
 
 ### :computer: Agregar Esqueleto del Proyecto
+Agregamos los pauqeutes sugeridos `Library` -> `Book`, `Loan` y `User`y Verificamos que se crea su correspondiente en test
 
+![image](https://github.com/user-attachments/assets/8bc11f68-1a61-40c0-b6a0-3d3592f58862)
 
+### :keyboard: Agrregar Clases
+Una vez creados los paquetes, creamos y añadimos el código de las clases sugeridas en surespectivo paquete:
+`library.book -> Book`
 
+`library.loan -> Loan y LoanStatus`
+
+`library.user -> User`
+
+`library -> Library`
+
+![image](https://github.com/user-attachments/assets/1bdc1f49-00a2-474c-a470-b15a2ffa4e09)
 
 
 ## Pruebas Unitarias y TDD
