@@ -166,6 +166,13 @@ public class LoanTest {
         });
     }
 
+    @Test
+    public void testInvalidValue() {
+        assertThrows(IllegalArgumentException.class, () -> {
+            LoanStatus.valueOf("INVALID");
+        });
+    }
+
     @AfterEach
     public void tearDown() {
     }
