@@ -2,7 +2,6 @@ package edu.eci.cvds.tdd.library.loan;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import java.io.ObjectInputFilter.Status;
 import java.time.LocalDateTime;
 
 import org.junit.jupiter.api.*;
