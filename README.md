@@ -56,6 +56,7 @@ Siguiendo la guía, usamos Docker para descargar la imagen de Sonar y poder ejec
 
 ![image](https://github.com/user-attachments/assets/a8e8f862-4dd3-4a46-a004-2a05f1e798d8)
 
+
 ![image](https://github.com/user-attachments/assets/b2a52991-5326-4c53-b756-cd56e17125ad)
 
 Ya validado que la herramienta funciona, vamos a ingresar con el usuario y contraseña "admin" para poder solicitar un token que nos ayudará a que las extensiones de nuestro IDE nos identifique y permita realizar el análisis de código.
