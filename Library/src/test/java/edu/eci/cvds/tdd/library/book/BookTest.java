@@ -5,19 +5,19 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class BookTest {
 
-    public BookTest() {}
+    public BookTest() {
+    }
 
     @Test
-    public void mustCreateBook(){
-        assertDoesNotThrow(()->{
-            Book book = new Book("El principito", "Antoine de Saint-Exupery", "9783162763");
-        });
+    public void mustCreateBook() {
+        Book book = new Book("El principito", "Antoine de Saint-Exupery", "9783162763");
+        assertNotNull(book);
     }
 
     @Test
     public void shouldNotGetTittle() {
         Book book = new Book("El principito", "Antoine de Saint-Exupery", "9783162763");
-        assertNotEquals("Habitos Atomicos",book.getTittle());
+        assertNotEquals("Habitos Atomicos", book.getTittle());
     }
 
     @Test

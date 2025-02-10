@@ -1,16 +1,17 @@
 package edu.eci.cvds.tdd.library.user;
+
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class UserTest {
 
-    public UserTest() {}
+    public UserTest() {
+    }
 
     @Test
     public void mustCreateUser() {
-        assertDoesNotThrow(()->{
-            User user = new User();
-        });
+        User user = new User();
+        assertNotNull(user);
     }
 
     @Test
@@ -29,9 +30,9 @@ public class UserTest {
     @Test
     public void shouldSetName() {
         User user = new User();
-        assertDoesNotThrow(() ->user.setName("Nicole"));
+        assertDoesNotThrow(() -> user.setName("Nicole"));
         assertDoesNotThrow(() -> user.setName(null));
-        
+
     }
 
     @Test
