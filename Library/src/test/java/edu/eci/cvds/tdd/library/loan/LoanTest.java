@@ -112,28 +112,15 @@ public class LoanTest {
         });
     }
 
-    // @Test
-    // public void shouldGetStatus() {
-    // Loan loan = new Loan();
-    // LoanStatus = new LoanStatus();
-    // loan.setUser(user);
-    // assertNotNull(loan.getUser());
-    // }
-
     @Test
     public void shouldNotGetStatus() {
         Loan loan = new Loan();
         assertNull(loan.getStatus());
     }
 
-    @Test
     public void shouldSetStatus() {
         Loan loan = new Loan();
-    }
-
-    @Test
-    public void shouldNotSetStatus() {
-
+        assertDoesNotThrow(() -> loan.setStatus(LoanStatus.ACTIVE));
     }
 
     @Test
