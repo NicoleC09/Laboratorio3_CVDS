@@ -22,9 +22,4 @@ public class Book {
     public String getIsbn() {
         return isbn;
     }
-
-    @Override
-    public boolean equals(Object obj) {
-        return isbn.equals(((Book)obj).isbn);
-    }
 }
